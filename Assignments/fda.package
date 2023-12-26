@@ -10,7 +10,7 @@ setwd("/Users/cao/Dropbox/Teaching/FDA/SummerCourse2017/R")
 
 # obtain the annual precipitation for 35 cities
 annualprec   = log10(apply(daily$precav,2,sum))
-(ny = length(annualprec))
+(ny = length(annualprec)) 
 # Define the 65 Fourier basis functions
 tempbasis65  = create.fourier.basis(c(0,365),65)
 
